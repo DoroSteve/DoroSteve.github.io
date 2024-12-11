@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+
+
+.imagen-superior {
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 600px; /* Tamaño máximo para no exceder */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 10px; /* Espacio arriba de la imagen */
+    width: 300px; /* Ajusta el tamaño de la imagen según lo necesites */
+    border-radius: 15px;
+}
+
+
+.header-content {
+    display: flex; /* Coloca la imagen y el título en la misma línea */
+    align-items: center; /* Alinea verticalmente al centro */
+    gap: 10px; /* Espacio entre la imagen y el título */
+}
+
+.header-content img {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
+
+.centrado {
+    text-align: center; 
+}/* Centra el texto horizontalmente */
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo para cada receta */
+.receta {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+
+.receta img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.contenido-receta {
+    max-width: 600px;
+}
+
+.contenido-receta h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: black;
+}
+
+.contenido-receta p {
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
